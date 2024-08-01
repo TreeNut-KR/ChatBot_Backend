@@ -9,6 +9,16 @@
             "projectName": "TreeNut",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TreeNutApplication<ChatBot_Backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "TreeNut.TreeNut.TreeNutApplication",
+            "projectName": "ChatBot_Backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
