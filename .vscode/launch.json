@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TreeNutApplication<TreeNut>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.TreeNut.TreeNutApplication",
+            "projectName": "TreeNut",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
