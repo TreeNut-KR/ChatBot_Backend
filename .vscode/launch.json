@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TreeNutApplication",
+            "request": "launch",
+            "mainClass": "TreeNut.TreeNut.TreeNutApplication",
+            "projectName": "TreeNut-ChatBot_Backend"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-TreeNutApplication<TreeNut>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
