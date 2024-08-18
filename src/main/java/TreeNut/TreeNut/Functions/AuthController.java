@@ -1,4 +1,4 @@
-package TreeNut.TreeNut.Controllers;
+package TreeNut.TreeNut.Functions;
 
 public class AuthController {
     
