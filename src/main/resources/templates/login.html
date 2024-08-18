@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>로그인 페이지</h1>
-    <a href="/oauth2/authorization/naver">네이버 로그인</a>
+    <h1>로그인</h1>
+    <p>네이버 계정으로 로그인 해보세요~ 테스트중 2024-08-11.</p>
+    <a href="/oauth2/authorization/naver" class="login-button">네이버 로그인</a>
 </body>
 </html>
